@@ -78,18 +78,18 @@ bash ./scripts/run-demos.sh --run zk
 
 ```
 demos-go/
-├── cb-mpc-go/          # Go 绑定库
+├── cb-mpc-go/          # Go 绑定库 (github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go)
 │   ├── api/            # 公共 API
 │   ├── internal/       # 内部实现
 │   └── go.mod          # Go 模块文件
 ├── examples/           # 示例程序
-│   ├── access-structure/
-│   ├── agreerandom/
-│   ├── ecdsa-2pc/
-│   ├── ecdsa-mpc-with-backup/
-│   └── zk/
+│   ├── access-structure/ (github.com/xxtea01/cb-mpc/demo-go-access-structure)
+│   ├── agreerandom/    (github.com/xxtea01/cb-mpc/demo-go-agreerandom)
+│   ├── ecdsa-2pc/      (github.com/xxtea01/cb-mpc/demo-go-ecdsa-2pc)
+│   ├── ecdsa-mpc-with-backup/ (github.com/xxtea01/cb-mpc/demo-go-ecdsa-mpc-with-backup)
+│   └── zk/             (github.com/xxtea01/cb-mpc/demo-go-zk)
 └── cmd/               # 命令行工具
-    └── threshold-ecdsa-web/
+    └── threshold-ecdsa-web/ (github.com/xxtea01/cb-mpc/demo-runner)
 ```
 
 ## 故障排除

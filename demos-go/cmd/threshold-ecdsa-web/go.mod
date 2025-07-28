@@ -1,13 +1,13 @@
-module github.com/coinbase/cb-mpc/demo-runner
+module github.com/xxtea01/cb-mpc/demo-runner
 
 go 1.24.1
 
-replace github.com/coinbase/cb-mpc/demos-go/cb-mpc-go => ../../cb-mpc-go
+replace github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go => ../../cb-mpc-go
 
 require (
-	github.com/coinbase/cb-mpc/demos-go/cb-mpc-go v0.0.0-20250616220207-ed1310e03545
 	github.com/labstack/echo/v4 v4.13.4
 	github.com/spf13/viper v1.20.1
+	github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go v0.0.0-20250616220207-ed1310e03545
 )
 
 require (
