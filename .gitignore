@@ -23,3 +23,4 @@ a.out
 docsgen/
 node_modules/
 demos-go/cmd/threshold-ecdsa-web/demo-runner
+demos-go/cmd/eth-client/eth-client
