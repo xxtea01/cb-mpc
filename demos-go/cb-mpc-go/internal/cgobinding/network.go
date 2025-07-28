@@ -7,8 +7,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport/mtls"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport/mtls"
 )
 
 /*

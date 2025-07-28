@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // Scalar represents a field element (mod the curve order).

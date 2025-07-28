@@ -3,14 +3,14 @@ package curveref
 import (
 	_ "unsafe"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
-//go:linkname curveNewPointFromCRef github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve.newPointFromCRef
+//go:linkname curveNewPointFromCRef github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve.newPointFromCRef
 func curveNewPointFromCRef(ref cgobinding.ECCPointRef) *curve.Point
 
-//go:linkname curvePointToCRef github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve.toCRef
+//go:linkname curvePointToCRef github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve.toCRef
 func curvePointToCRef(p *curve.Point) cgobinding.ECCPointRef
 
 // PointFromCRef converts a native point reference into the higher-level

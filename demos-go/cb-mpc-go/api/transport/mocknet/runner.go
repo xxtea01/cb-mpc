@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // MPCIO represents input/output data for MPC operations

@@ -1,6 +1,6 @@
 package curve
 
-import "github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+import "github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 
 // newFromNativeRef constructs a Curve implementation from a native ECurveRef.
 // It is intentionally unexported and should only be accessed via the

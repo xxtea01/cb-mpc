@@ -3,7 +3,7 @@ package curve
 import (
 	"fmt"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // Point represents a point on an elliptic curve

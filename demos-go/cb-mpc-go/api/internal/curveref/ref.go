@@ -3,14 +3,14 @@ package curveref
 import (
 	_ "unsafe"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
-//go:linkname curveNativeRef github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve.nativeRef
+//go:linkname curveNativeRef github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve.nativeRef
 func curveNativeRef(c curve.Curve) cgobinding.ECurveRef
 
-//go:linkname curveNewFromNativeRef github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve.newFromNativeRef
+//go:linkname curveNewFromNativeRef github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve.newFromNativeRef
 func curveNewFromNativeRef(ref cgobinding.ECurveRef) curve.Curve
 
 // Ref returns the underlying native curve reference for the provided Curve.

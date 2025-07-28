@@ -3,7 +3,7 @@ package curvemap
 import (
 	"fmt"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
 )
 
 // Numeric OpenSSL NIDs for curves supported by cb-mpc-go.

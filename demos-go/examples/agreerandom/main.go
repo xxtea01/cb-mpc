@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/mpc"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/mpc"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
 )
 
 // runAgreeRandomDemo runs the AgreeRandom protocol for the given bit length and

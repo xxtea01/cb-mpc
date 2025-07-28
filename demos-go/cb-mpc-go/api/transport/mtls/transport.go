@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport"
 	"golang.org/x/sync/errgroup"
 )
 

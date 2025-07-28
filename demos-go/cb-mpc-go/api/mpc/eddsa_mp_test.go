@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	curvepkg "github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	curvepkg "github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // EDDSAMPCWithMockNet executes the full EdDSA N-party workflow using the in-memory

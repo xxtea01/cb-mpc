@@ -3,10 +3,10 @@ package mpc
 import (
 	"fmt"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	curveref "github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/internal/curveref"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/curvemap"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	curveref "github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/internal/curveref"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/curvemap"
 )
 
 // ECDSA2PCKey is an opaque handle to a 2-party ECDSA key share.

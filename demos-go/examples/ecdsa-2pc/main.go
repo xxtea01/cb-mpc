@@ -7,9 +7,9 @@ import (
 
 	"sync"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/mpc"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/mpc"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
 )
 
 func main() {

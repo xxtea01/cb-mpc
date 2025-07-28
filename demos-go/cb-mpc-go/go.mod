@@ -1,4 +1,4 @@
-module github.com/coinbase/cb-mpc/demos-go/cb-mpc-go
+module github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go
 
 go 1.23.0
 

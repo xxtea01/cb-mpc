@@ -3,8 +3,8 @@ package mpc
 import (
 	"fmt"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // Job2P is an opaque handle for a 2-party MPC job.

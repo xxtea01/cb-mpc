@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/zk"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/zk"
 )
 
 func main() {

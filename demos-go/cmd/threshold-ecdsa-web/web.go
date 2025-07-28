@@ -14,9 +14,9 @@ import (
 
 	"slices"
 
-	curvePkg "github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport/mtls"
+	curvePkg "github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport/mtls"
 	"github.com/labstack/echo/v4"
 )
 

@@ -6,7 +6,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport"
 )
 
 // MockMessenger provides a mock implementation of the Messenger interface for testing.

@@ -3,7 +3,7 @@ package zk
 import (
 	"testing"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
 )
 
 // AgreeRandomWithMockNet is a test-only convenience wrapper that spins up two parties

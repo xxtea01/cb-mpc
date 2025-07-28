@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	curvepkg "github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	curveref "github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/internal/curveref"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	curvepkg "github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	curveref "github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/internal/curveref"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/transport/mocknet"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // ------------------------------------------------------------

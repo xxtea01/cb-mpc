@@ -3,7 +3,7 @@ package curve
 import (
 	"fmt"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // Curve is the public interface that represents an elliptic curve supported by the cb-mpc library.

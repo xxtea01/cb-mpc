@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/curve"
-	curveref "github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/api/internal/curveref"
-	"github.com/coinbase/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/curve"
+	curveref "github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/api/internal/curveref"
+	"github.com/xxtea01/cb-mpc/demos-go/cb-mpc-go/internal/cgobinding"
 )
 
 // Compile-time assertions to ensure ECDSAMPCKey implements the binary
