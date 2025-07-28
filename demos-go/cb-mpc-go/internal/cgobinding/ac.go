@@ -1,8 +1,9 @@
 package cgobinding
 
 /*
-#cgo CFLAGS:    -I${SRCDIR}
-#cgo CXXFLAGS:  -I${SRCDIR}
+#cgo CFLAGS:    -I${SRCDIR} -I/opt/homebrew/opt/openssl/include
+#cgo CXXFLAGS:  -I${SRCDIR} -I/opt/homebrew/opt/openssl/include
+#cgo LDFLAGS:   -L/opt/homebrew/opt/openssl/lib -lcrypto
 #include "ac.h"
 */
 import "C"
