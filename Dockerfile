@@ -36,7 +36,7 @@ RUN mkdir -p build/Release && \
 RUN make -C build/Release install
 
 # 阶段2: 构建Go应用
-FROM golang:1.23 AS go-builder
+FROM golang:1.23.0 AS go-builder
 
 # 安装必要的系统依赖
 RUN apt-get update && apt-get install -y \
